@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.hero .content .main_header .main_gallery > *{
+    will-change: transform;
+}
 :root{
     --index: calc(1vw + 1vh);
     --color_header: #fff;
